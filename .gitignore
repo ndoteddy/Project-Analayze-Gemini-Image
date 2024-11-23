@@ -1,0 +1,50 @@
+# Node.js modules
+node_modules/
+
+# Logs
+*.log
+*.log.*
+
+# Build artifacts
+/dist/
+/build/
+
+# Dependency directories
+/.pnp/
+/.pnp.js
+
+# Coverage directory used by tools like istanbul
+/coverage/
+
+# VS Code directories
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Google Cloud Credentials (service account keys)
+*.json
+
+# Docker files
+Dockerfile*
+.dockerignore
+
+# npm and yarn lock files that are not relevant to the runtime
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.swp
+*.swo
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Cloud-specific files
+*.pem
+*.key
