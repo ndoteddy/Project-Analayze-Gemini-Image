@@ -20,9 +20,9 @@ node_modules/
 .vscode/
 
 # Environment files
-.env
-.env.local
-.env.*.local
+# .env
+# .env.local
+# .env.*.local
 
 # Google Cloud Credentials (service account keys)
 *.json
