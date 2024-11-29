@@ -111,6 +111,8 @@ gcloud run deploy gdg-dev-analyze-image-cloud-run \
   --region asia-east1 \
   --allow-unauthenticated
 
+  gcloud run deploy gdg-dev-analyze-image-cloud-run   --image gcr.io/stellar-horizon-438503-s6/analyze-image-with-gemini-docker:v3  --set-env-vars $ENV_VARS   --platform managed   --region asia-east1   --allow-unauthenticated
+
   gcloud iam service-accounts add-iam-policy-binding 415493226777-compute@developer.gserviceaccount.com \
   --member="serviceAccount:cloud-run-app-sa@your-project-name.iam.gserviceaccount.com" \
   --role="roles/iam.serviceAccountUser"
