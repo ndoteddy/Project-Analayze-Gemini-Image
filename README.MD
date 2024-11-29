@@ -25,7 +25,20 @@ Before you begin, ensure that you have the following:
 - **Google Cloud Project** created and set up
 - **Service account** with necessary permissions
 - **Docker image** ready for deployment
+- **NPM/NVM** ready for deployment
 
+as usual this one is express api nodejs - run npm install and kindly use npm 18 (minimum)
+and node index.js - apps will run at localhost:3000
+
+curl --location 'http://localhost:3000/analyzeImage' \
+--header 'x-app-key: yourcustomappkey' \
+--header 'Content-Type: application/json' \
+--data '{
+    "imageUrl":"https://evmarts.github.io/blog//img/figs/texture-synth/balloon.jpg",
+    "prompt":"Tell me about the image",
+    "maxOutputTokens":200,
+    "temperature":0.8
+}'
 ---
 
 ##  Step 1: Authenticate with Google Cloud
