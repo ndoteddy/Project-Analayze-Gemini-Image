@@ -2,6 +2,11 @@
 
 This guide walks you through setting up and deploying the image analysis app using Google Cloud Run, Docker, and a service account for authentication. Follow these steps to authenticate, build, push Docker images, assign IAM roles, and deploy your app.
 
+## Medium
+
+Visit my medium to read some explanation or just to say hi !
+https://medium.com/scriptkiddiez/smart-image-detection-made-easy-with-serverless-cloud-functions-and-gemini-ai-e959612688fa
+
 ---
 
 ## Table of Contents
